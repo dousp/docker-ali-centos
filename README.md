@@ -1,2 +1,9 @@
-# docker-ali-centos
-阿里云源的centos
+# centos7镜像
+
+## 系统源
+
+**阿里云**
+
+## 软件
+
+- wget
