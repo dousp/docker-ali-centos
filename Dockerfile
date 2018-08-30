@@ -7,7 +7,6 @@ MAINTAINER Douspeng "douspeng@sina.cn"
 RUN yum install -y wget
 # 切换阿里源
 RUN mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
-RUN mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel.repo.backup
 RUN wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 RUN wget -P /etc/yum.repos.d/ http://mirrors.aliyun.com/repo/epel-7.repo
 # 生成缓存
