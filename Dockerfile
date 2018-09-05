@@ -12,7 +12,7 @@ RUN  \
         wget -P /etc/yum.repos.d/ http://mirrors.aliyun.com/repo/epel-7.repo && \
         yum update -y && \
         yum makecache && \
-        yum -y install epel-release make curl tar && \
+        yum -y install make curl tar && \
         rm -rf /etc/localtime && \
         ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
         yum -y install kde-l10n-Chinese && \
