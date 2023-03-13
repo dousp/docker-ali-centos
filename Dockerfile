@@ -1,8 +1,6 @@
 FROM centos:centos7
 
-LABEL name="CentOS7 latest"
-
-MAINTAINER Douspeng "douspeng@sina.cn"
+LABEL name="CentOS7 latest" author=douspeng email="douspeng@sina.cn"
 
 RUN  \
         yum clean metadata && \
